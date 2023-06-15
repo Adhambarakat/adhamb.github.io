@@ -1,0 +1,113 @@
+body{
+    background-color: #0d1117;
+    margin-top: 0%;
+}
+/*the big container*/
+.container{
+    display:grid;
+    grid-template-columns: 200px ;
+    grid-template-rows: 5em fit-content;
+    grid-template-areas:
+    "ar ar ar ar ar ar"
+    "ti ti ti ti ti ti"
+    ;
+    margin-top: 3em;
+    justify-content: center;
+    margin-right:25vw ;
+    margin-left: 25vw;
+
+    
+}
+
+/*the container for the menu bar*/
+.menu2{
+    display:flex;
+    justify-content: center;
+    
+}
+/*menu bar*/
+.menu{
+    display: flex;
+    background-color:#0d1117;
+    position:fixed;
+    height:3em;
+    width:100%; 
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    margin-top: 0px;
+}
+/*menu bar contents*/
+.menu a {
+    text-decoration:none;
+    text-align: center;
+    color:white;
+    font-size: 2em;
+    padding:6px;
+    height:1.14em;
+}
+/*hovering interaction*/
+.menu a:hover{
+    color:gray;
+    height:1.14em;     
+}
+.menu a.active{
+    color: teal;
+    height:1.14em;
+}
+
+/*main box*/
+.box{
+    display: flex;
+    height:fit-content;
+    grid-area:ti;  
+    justify-content: center;
+    margin-right:10vw ;
+    margin-left: 10vw;
+    margin-bottom:50px;
+
+ 
+}
+
+.year{
+    
+    color:#0d1117;
+    background-color: azure;
+    max-width: fit-content;
+    padding: 4px;
+    border-radius: 6px;
+    margin-bottom:20px;
+    margin-left: 5px;
+    margin-right:5px;
+    
+}
+
+span{
+    display:block;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+.aa{
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 35vw;
+}
+
+.title{
+    grid-area:ar;
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+     
+}
+
+.dis{
+    color:gray;
+    font-size: 1.1em;
+}
+
+.des{
+    color:antiquewhite
+}

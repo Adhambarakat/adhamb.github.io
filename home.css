@@ -1,0 +1,171 @@
+body{
+    background-color: #0d1117;
+    margin-top: 0%;
+    width:100vw;
+    margin-left:0%;
+}
+/*the big container*/
+/*.container{
+    display:grid;
+    grid-template-columns: 50vw 50vw ;
+    grid-template-rows: 3em 500px;
+    grid-template-areas:
+    "aa aa aa aa aa aa"
+    "tx tx tx tx im im"
+    ;
+}*/
+
+/*the container for the menu bar*/
+.menu2{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    
+}
+/*menu bar*/
+.menu{
+    display: flex;
+    background-color:#0d1117;
+    position:fixed;
+    height:3em;
+    width:100%; 
+    justify-content: flex-start;
+    list-style: none;
+    align-items: center;
+}
+/*menu bar contents*/
+.menu a {
+    text-decoration:none;
+    text-align: center;
+    justify-content: center;
+    color:white;
+    font-size: 2em;
+    padding:6px;
+    height:3em;
+    
+}
+/*hovering interaction*/
+.menu a:hover{
+    color:gray;
+    height:3em;     
+}
+.menu a.active{
+    color: teal;
+    height:3em;
+}
+
+/*main box*/
+.box{
+   
+    height:fit fit-content;
+    width:50%;   
+    margin-right: 0px; 
+    
+    
+}
+/*the text part*/
+.txt{
+    padding:80px;
+    color:white;
+    font-size:1.4em;
+    padding-right: 150px;
+    padding-left: 100px; 
+   
+      
+}
+/*the image part*/
+.img{
+    display: flex;
+    padding:15px;
+    grid-area:im;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu img{
+    display: flex;
+    height: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.aa{
+    background-color: black;
+  margin-left: 10px;
+  margin-right: 35vw;
+    
+   
+    
+}
+
+ul{
+    margin-top: 0px;
+}
+
+h3{
+    color:teal
+}
+
+.ser{
+    display:flex;
+    flex-direction:row;
+    row-gap: 10px;
+    grid-row: 3;
+   color:white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border:white;
+    
+    
+}
+
+.box2{
+    display: flex;
+    height:200px;
+    width:200px
+    color=white;
+    justify-content: center;
+    align-items: center;
+    border: 5px white;
+    background-color: #0d1117;
+ 
+    
+}
+
+.services{
+    display:flex;
+    flex-direction:row;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    display: flex;
+    margin-left:50px;
+    color:#c9c0a5
+}
+
+.box3{
+    display: flex;
+    height:20px;
+    width:200px
+    color=white;
+    justify-content: center;
+    align-items: center;
+    border: 200px white;
+    background-color: #0d1117;
+    color: aliceblue;
+ 
+    
+}
+
+.services2{
+    display:flex;
+    flex-direction:row;
+    column-gap: 100px;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,64 @@
+body{
+    background-color: #0d1117;
+    margin-top: 0%;
+    width:100vw;
+    margin-left:0%;
+}
+/*the big container*/
+.container{
+    display:grid;
+    grid-template-columns: 50vw ;
+    grid-template-rows: 2.5em 500px;
+    grid-template-areas:
+    "a a a a a a"
+    "tx tx tx im im im"
+    ;
+}
+
+/*the container for the menu bar*/
+.menu2{
+    display:flex;
+    justify-content: flex-start;
+}
+/*menu bar*/
+.menu{
+    display: flex;
+    background-color:#0d1117;
+    position:fixed;
+    height:3em;
+    width:100%; 
+    justify-content: center;
+    margin-top: 0px;
+}
+/*menu bar contents*/
+.menu a {
+    text-decoration:none;
+    text-align: center;
+    color:white;
+    font-size: 2em;
+    padding:6px;
+    height:1.14em;
+}
+/*hovering interaction*/
+.menu a:hover{
+    background-color:black;
+    color:white;
+    height:1.14em;     
+}
+.menu a.active{
+    background-color: teal;
+    height:1.14em;
+}
+
+/*main box*/
+.box{
+    height:500px;
+    width:50%;   
+    margin-right: 0px; 
+}
+
+.aa{
+    background-color: black;
+    margin-left: 0;
+    margin-right: 35vw;
+}
